@@ -5,57 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+     crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-       <div class="navigation">
-        <img src="images/Picture2.png" alt="Артистисимо" width="90" height="120">
-            <h1>Театрална школа "Артистисимо"</h1>
+    <div class="container-fluid">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="assets/img/logo.png"
+            class="img-fluid"
+            alt="logo"
+            style="width: 32px"
+          />
+          <span class="fs-5">Театрална школа Артистисимо</span>
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="template.html" class="nav-link text-body-emphasis" aria-current="page"
+              >Начало</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="For_us.html" class="nav-link text-body-emphasis">За нас</a>
+          </li>
+          <li class="nav-item">
+            <a href="Groups.html" class="nav-link text-body-emphasis">Групи</a>
+          </li>
+          <li class="nav-item">
+            <a href="Theater_play.html" class="nav-link text-body-emphasis">Представления</a>
+          </li>
+          <li class="nav-item">
+            <a href="Certificates.html" class="nav-link text-body-emphasis">Постижения</a>
+          </li>
+        </ul>
+      </header>
+    </div>
 
-        <nav>
-            <ul>
-                <li><a href="template_index.html">Начало</a></li>
-                <li><a href="For_us.html">За нас</a></li>
-                <li><a href="Groups.html">Групи</a></li>
-                <li><a href="Theater_play.html">Предстaвления</a></li>
-                <li><a href="Opinions.html">Отзиви</a></li>
-                <li><a href="Certificates.html">Постижения</a></li>
-                <li><a href="Certificates.html">Сертификати</a></li>
-            </ul>
-            
-        </nav>
-        </div>
-
-    </header>
-
-     <br>
-    <hr>
-    <br>
-
-    <main>
         
-        <section>
-            
-            <article>
+    <div class="container-fluid">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2025</p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-            </article>
-
-        </section>
-
-
-    </main>
-
-     <br>
-    <hr>
-    <br>
-
-    <footer>
-        За нас: Театър школа Артистисимо
-        <br>
-        Адрес: Читалище „Зора“,  Ruse, Duhovno vazrajdane St 1
-        <br>
-        Телефон:082 824 161
-    </footer>
-    
+    <script src="assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
